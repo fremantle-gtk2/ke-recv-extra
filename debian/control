@@ -7,7 +7,7 @@ Standards-Version: 3.6.0
 
 Package: ke-recv-extra
 Architecture: any
-Depends: ${shlibs:Depends}, gconf2, hildon-status-bar-usb-l10n-mr0 | hildon-status-bar-usb-l10n-mr
+Depends: ${shlibs:Depends}, gconf2, hildon-status-bar-usb-l10n-mr0 | hildon-status-bar-usb-l10n-mr, kernel-feature-errata-430973-workaround[armel]
 Description: Program for receiving low-memory events from the kernel etc.
  Program for receiving low-memory events from the kernel and forwarding them
  to the D-Bus system bus, etc.
